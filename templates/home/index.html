@@ -50,11 +50,11 @@
 						<div class="menu-wrapper clearfix">
 							<div class="logo">
 								<a href="{% url 'home' %}">
-									<!-- <img src="{% static 'home/images/logo/logo.png' %}" alt="Logo"> -->
-									<h3>Logo Placeholder</h3>
+									<img src="{% static 'home/images/logo/logo.png' %}" alt="Logo">
+									<!-- <h3>Logo Placeholder</h3> -->
 								</a>
 							</div>
-							
+
 							<ul class="right-widget celarfix">
 								{% if not user.is_authenticated %}
 								<li class="login-button"><a href="{% url 'account_login' %}">Login <i class="flaticon-right-thin"></i></a></li>
@@ -109,8 +109,8 @@
 					<img src="{% static 'home/images/icon/3.png' %}" alt="" class="icon-shape-three">
 					<div class="container">
 						<div class="main-text-wrapper">
-							<h1>Portfolio <br>Management System</h1>
-							<p>A revolutionary digital solution for managing your portfolio.</p>
+							<h1 style="text-align:center; direction:rtl"> مشاوره و برنامه ریزی تخصصی کنکور </h1>
+							<p style="direction:rtl"> اولین پیج کنکوری و روانشناسی ، بخند و بخون... </p>
 							<ul class="button-group clearfix">
 								<li><a href="#features">Explore</a></li>
 								<li>
@@ -462,10 +462,10 @@
 			</div> <!-- /.testimonial-section -->
 
 
-			<!-- 
+			<!--
 			=============================================
 				Contact Us One
-			============================================== 
+			==============================================
 			-->
 			<div class="contact-us-one" id="contact">
 				<div class="overlay">
@@ -544,7 +544,7 @@
 
 			<!--
 			=====================================================
-				Footer 
+				Footer
 			=====================================================
 			-->
 			<footer class="theme-footer">
