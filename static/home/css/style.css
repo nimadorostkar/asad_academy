@@ -1,11 +1,11 @@
  /*CSS Document */
 
-/* 
-    Created on : 05/12/2018. 
+/*
+    Created on : 05/12/2018.
     Description: cryto - Bitcoin & Cryptocurrency Landing Page HTML Template.
     Version    : 1.0.
     Author     : @creativegigs.
-   
+
 */
 
 /* ------------------------------------------ */
@@ -63,7 +63,7 @@
 @import url('../vendor/roadmap/jquery.roadmap.min.css');
 /*---------------- Custom Animation -------------*/
 @import url('custom-animation.css');
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -88,7 +88,7 @@
   top: 50%;
   margin: -32px auto 0 auto;
 }
-/*** 
+/***
 
 ====================================================================
   Click To Top
@@ -118,7 +118,7 @@
   opacity: 1;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -595,7 +595,7 @@ body .theme-button:hover span {opacity: 1;}
 .stock-market-price {padding-bottom: 50px;}
 .stock-market-price #market-rate {padding: 10px 15px;}
 .stock-market-price #market-rate .main-wrapper {
-  background: #fff;
+  background: #01d4b524;
   box-shadow: 0px 3px 70px 0px rgba(187, 206, 233, 0.2);
   border-radius: 3px;
   padding: 30px 20px 30px 40px;
@@ -624,7 +624,7 @@ body .theme-button:hover span {opacity: 1;}
   position: relative;
   margin-top: -9px;
   padding-bottom: 22px;
-} 
+}
 .stock-market-price #market-rate .main-wrapper .rate:before {
   content: '';
   width: 100%;
@@ -1391,7 +1391,7 @@ body .theme-button:hover span {opacity: 1;}
   margin-top: 20px;
   position: relative;
 }
-.token-sale-section .token-sale-text .title-wrapper .title:before { 
+.token-sale-section .token-sale-text .title-wrapper .title:before {
   content: '';
   width: 100px;
   height: 1px;
@@ -1505,7 +1505,7 @@ body .theme-button:hover span {opacity: 1;}
   background: #1217a4;
   position: absolute;
   left: 50%;
-  margin-left: -5px; 
+  margin-left: -5px;
 }
 .our-road-map .roadmap.roadmap--orientation-auto .roadmap__events__event:nth-child(odd) .event:before {
   top:-6px;
@@ -1594,7 +1594,7 @@ body .theme-button:hover span {opacity: 1;}
   padding: 20px 0 0 50px;
   position: relative;
   z-index: 99;
-} 
+}
 /*---------------------- Contact Section Dark ---------------------*/
 .contact-section-dark {
   position: relative;
